@@ -1,0 +1,59 @@
+
+.calculator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.body{
+    background-color: #581845;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder {
+  color: #581845;
+}
+
+.getNumber{
+    background-color: #DDDDDD;
+    width: 370px;
+    height: 70px;
+    border-radius: 10px;
+    color: #581845;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 0px;
+    text-align: right;
+}
+
+.numbers{
+    display: block;
+    align-items: center;
+    max-width: 400px;
+}
+
+.button{
+    font-size: 30px;
+    font-weight: bold;
+    color: #900C3F;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-bottom: 10px;
+    border: 0px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #ce7a9a;
+    color: #FFF;
+}
+
+#igual{
+    width:180px;
+}
